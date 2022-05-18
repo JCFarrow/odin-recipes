@@ -1,0 +1,49 @@
+@import url("https://fonts.googleapis.com/css2?family=Bitter:wght@400;700&display=swap");
+
+* {
+    font-family: Bitter, "Times New Roman", serif;
+}
+
+html {
+    font-size: 20px;
+    margin-left: 10px;
+    /* background-color: hsl(197, 93%, 83%); */
+}
+
+h1 {
+    font-weight: 900;
+    margin-bottom: 15px;
+}
+
+#main-title {
+    font-size: 60px;
+    color: hsl(51, 100%, 50%);
+}
+
+h2 {
+    margin-bottom: 5px;
+}
+
+a {
+    background-color: white;
+    border-style: solid;
+    border-radius: 5px;
+    border-color: black;
+    padding: 2px 4px;
+    color: black;
+    text-decoration: none;
+    margin: auto 5px;
+}
+
+a:hover {
+    background-color: hsl(51, 100%, 80%);
+}
+
+#main-image {
+    width: 400px;
+    height: auto;
+}
+
+li {
+    margin: 5px auto;
+}
